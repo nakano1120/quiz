@@ -6,9 +6,7 @@ body{
     width: 25%;
     font-size: 150%;
 }
-.boxreset{
-    font-size:5vw;
-}
+
 .boxA {
     border: none;
 }
@@ -29,6 +27,7 @@ a{
 a:hover{
     color:#0000ff;
 }
-.boxreset {
+.boxreset ,.boxt{
     width: 100%;
+    font-size:5vw;
 }

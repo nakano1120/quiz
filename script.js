@@ -59,6 +59,8 @@ function question(ox){
         incorrect.play()
         alert(answer+"P:不正解")
         x[answer]++
+    }else{
+        alert(answer+"P:スルー")
     }
     for(let i=1;i<9;i++){
         document.getElementById("ox"+i).innerHTML=o[i]+"o"+x[i]+"x"
