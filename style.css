@@ -1,0 +1,34 @@
+body{
+    text-align:center;
+}
+.box8{
+    float: left;
+    width: 25%;
+    font-size: 150%;
+}
+.boxreset{
+    font-size:5vw;
+}
+.boxA {
+    border: none;
+}
+.boxA:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.boxo, .boxx{
+    float: left;
+    width: 50%;
+    font-size:20vw;
+}
+a{
+    text-decoration: none;
+    color:#ff0000;
+}
+a:hover{
+    color:#0000ff;
+}
+.boxreset {
+    width: 100%;
+}
